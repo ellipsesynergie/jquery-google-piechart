@@ -1,0 +1,8 @@
+{
+    "name": "ellipsesynergie/jquery-google-piechart",
+    "description": "A simple, lightweight jQuery plugin to create piechart using Google Corechart API",
+    "keywords": ["piechart", "jquery", "plugin", "google", "corechart"],
+    "homepage": "http://github.com/ellipsesynergie/jquery-google-piechart",
+    "author": "Ellipse Synergie",
+    "license": "MIT"
+}

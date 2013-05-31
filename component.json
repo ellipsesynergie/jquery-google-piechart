@@ -1,0 +1,13 @@
+{
+    "name": "jquery-google-piechart",
+    "repo": "ellipsesynergie/jquery-google-piechart",
+    "description": "A simple, lightweight jQuery plugin to create piechart using Google Corechart API",
+    "version": "0.0.1",
+    "keywords": ["piechart", "jquery", "plugin", "google", "corechart"],
+    "dependencies": {
+        "jquery/jquery": "*"
+    },
+    "scripts": ["lib/piechart.js"],
+    "styles": [],
+    "license": "MIT"
+}
