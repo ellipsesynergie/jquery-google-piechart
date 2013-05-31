@@ -38,17 +38,17 @@ See [Google Visualization Pie Chart configuration options](https://developers.go
 
 ### Defaults
 
-`backgroundColor`
+#### backgroundColor
 
-:   Default is `transparent`.
+Default is `transparent`.
 
-`colors`
+#### colors
 
-:   Default is `['#468851', '#C24A48']` (green and red).
+Default is `['#468851', '#C24A48']` (green and red).
 
-`legend`
+#### legend
 
-:   Default is `{'position': 'none'}`.
+Default is `{'position': 'none'}`.
 
 ## Demo
 
