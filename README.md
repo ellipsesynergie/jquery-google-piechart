@@ -8,6 +8,8 @@ A simple, lightweight jQuery plugin to create piechart using Google Corechart AP
 
 ## Usage
 
+### HTML
+
 First of all, include Google API and jQuery:
 
 ```html
@@ -16,14 +18,18 @@ First of all, include Google API and jQuery:
 <script>window.jQuery || document.write('<script src="path/to/jquery/jquery-1.9.1.min.js"><\/script>')</script>
 ```
 
-Then, bind piechart to an element:
+Then, create element that will contain the piechart:
 
 ```html
-<script type="text/javascript">
-    $(document).ready(function() {
-        $('#mypiechart').piechart();
-    });
-</script>
+<div id="mypiechart" data-data='[["Legend", "%"], ["Green", 34], ["Red", 11]]'></div>
+```
+
+### JS
+
+All you have to do now is to bind piechart to your element:
+
+```js
+$('#mypiechart').piechart();
 ```
 
 ## Options
